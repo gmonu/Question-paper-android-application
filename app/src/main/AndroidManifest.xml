@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+              //made main activity as Launcher activity that mean whenever app will initiate then the main acitivity is the first acitivity which will comes in play and execute.
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
